@@ -12,7 +12,7 @@ from .names import NEAR_ZERO, NEAR_HALF, NEAR_ONE, BIMODAL, \
     NULL_MODEL
 
 
-darkblue, green, red, purple, yellow, lightblue = sns.color_palette('deep')
+darkblue, orange, green, red, purple, brown, pink, gray, yellow, lightblue = sns.color_palette('deep')
 MODALITY_ORDER = [NEAR_ZERO, BIMODAL, NEAR_ONE, NEAR_HALF, NULL_MODEL]
 
 MODALITY_TO_COLOR = {NEAR_ZERO: lightblue, NEAR_HALF: yellow, NEAR_ONE: red,
